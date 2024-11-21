@@ -5,7 +5,7 @@ class Panelista {
 
     method rematar(tematica) {}
     method ganarPuntos(cantidad) { puntosEstrella += cantidad }
-    method opinarSobre(tematica) { tematica.serOpinada() }
+    method opinarSobre(tematica) { tematica.serOpinadaPor(self) }
     method esDeportivo() = false
     method esCelebridad() = false
     method opinarYRematar(tematica) {
